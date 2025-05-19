@@ -36,6 +36,7 @@ public class Main {
             System.out.println();
         }
 
+
         // --- Демонстрируем BFS
         BreadthFirstSearch<String> bfs = new BreadthFirstSearch<>(graph);
         List<Vertex<String>> bfsPath = bfs.search(astana, semey);
